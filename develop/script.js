@@ -12,14 +12,13 @@ function randomInt(min, max) {
   }
   const random = Math.random()
   return Math.floor(min * (1 - random) + random * max)
-  console.log(random)
 }
 
 
 
 
 function getRandomItem(list) {
-  return list[randomInt(0, list.lentgh - 1)]
+  return list[randomInt(list.length)]
 }
 
 
@@ -80,7 +79,6 @@ function generatePassword() {
     let randomSym = getRandomItem(randomList)
 
     generatedPassword += randomSym;
-    console.log(i)
   }
   return generatedPassword
 }
