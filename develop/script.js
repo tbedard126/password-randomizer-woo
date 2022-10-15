@@ -73,11 +73,12 @@ function generatePassword() {
     options.push(symbolList)
   }
 
-  const generatedPassword = ""
+  let generatedPassword = ""
 
   for (var i = 0; i < passwordLength; i++) {
-    var randomList = getRandomItem(options)
+    let randomList = getRandomItem(options)
     let randomSym = getRandomItem(randomList)
+
     generatedPassword += randomSym;
     console.log(i)
   }
