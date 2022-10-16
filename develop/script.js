@@ -4,7 +4,7 @@
 // Get references to the #generate element
 const generateBtn = document.querySelector("#generate");
 
-
+// function that creates the random numbers
 function randomInt(min, max) {
   if (!max) {
     max = min
@@ -16,7 +16,7 @@ function randomInt(min, max) {
 
 
 
-
+// 
 function getRandomItem(list) {
   return list[randomInt(list.length)]
 }
