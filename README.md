@@ -5,4 +5,4 @@ This was done for the my third week homework for my coding bootcamp class!
 
 Here is the link to my deployed page on github  https://tbedard126.github.io/password-randomizer-woo/
 
-![](develop\images\Untitled.jpg)
+![](./develop/images/Untitled.jpg)
