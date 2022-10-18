@@ -16,7 +16,7 @@ function randomInt(min, max) {
 
 
 
-// 
+// this is the function that creates the random list
 function getRandomItem(list) {
   return list[randomInt(list.length)]
 }
@@ -70,6 +70,10 @@ function generatePassword() {
 
   if (specialChars === true) {
     options.push(symbolList)
+  }
+
+  if (specialChars, lowercase, uppercase, numbers !== true) {
+    window.alert("must choose at least one")
   }
 
   let generatedPassword = ""
